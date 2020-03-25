@@ -1,0 +1,8 @@
+C:\Users\pmills\source\Repos\PracticeExamples\PracticeExamples\bin\Debug\netcoreapp3.1\PracticeExamples.deps.json
+C:\Users\pmills\source\Repos\PracticeExamples\PracticeExamples\bin\Debug\netcoreapp3.1\PracticeExamples.dll
+C:\Users\pmills\source\Repos\PracticeExamples\PracticeExamples\bin\Debug\netcoreapp3.1\PracticeExamples.pdb
+C:\Users\pmills\source\Repos\PracticeExamples\PracticeExamples\obj\Debug\netcoreapp3.1\PracticeExamples.csprojAssemblyReference.cache
+C:\Users\pmills\source\Repos\PracticeExamples\PracticeExamples\obj\Debug\netcoreapp3.1\PracticeExamples.AssemblyInfoInputs.cache
+C:\Users\pmills\source\Repos\PracticeExamples\PracticeExamples\obj\Debug\netcoreapp3.1\PracticeExamples.AssemblyInfo.cs
+C:\Users\pmills\source\Repos\PracticeExamples\PracticeExamples\obj\Debug\netcoreapp3.1\PracticeExamples.dll
+C:\Users\pmills\source\Repos\PracticeExamples\PracticeExamples\obj\Debug\netcoreapp3.1\PracticeExamples.pdb
