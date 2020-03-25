@@ -5,7 +5,7 @@ namespace PracticeExamples.Examples
     public class BalancedBrackets
     {
         private Stack<char> stack;
-        Dictionary<char, char> brackets;
+        private Dictionary<char, char> brackets;
 
         public BalancedBrackets()
         {
