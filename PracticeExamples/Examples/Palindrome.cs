@@ -1,4 +1,4 @@
-﻿namespace PracticeExamples
+﻿namespace PracticeExamples.Examples
 {
     public class Palindrome
     {
