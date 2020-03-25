@@ -25,6 +25,7 @@ namespace PracticeExamples.Examples
             {
                 if (c == '{' || c == '[' || c == '(')
                     stack.Push(c);
+
                 else if (stack.Count > 0 && (brackets.GetValueOrDefault(c) == stack.Peek()))
                     stack.Pop();
                 else
