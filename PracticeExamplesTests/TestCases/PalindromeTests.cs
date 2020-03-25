@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PracticeExamples.Examples;
 
-namespace PracticeExamplesTests.Tests
+namespace PracticeExamplesTests.TestCases
 {
     [TestClass]
     public class PalindromeTests
