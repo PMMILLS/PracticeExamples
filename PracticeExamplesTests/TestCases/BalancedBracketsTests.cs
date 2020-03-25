@@ -6,7 +6,7 @@ namespace PracticeExamplesTests.TestCases
     [TestClass]
     public class BalancedBracketsTests
     {
-        BalancedBrackets balancedBrackets;
+        private BalancedBrackets balancedBrackets;
 
         [TestInitialize]
         public void TestSetup()

@@ -4,38 +4,42 @@ using PracticeExamples.Examples;
 namespace PracticeExamplesTests.TestCases
 {
     [TestClass]
-    public class PalindromeTests
+    public class CoinChangeTests
     {
-        private Palindrome palindrome;
+        private CoinChange coinChange;
+        private int[] coins;
+        private int m;
 
         [TestInitialize]
         public void TestSetup()
         {
-            palindrome = new Palindrome();
+            coinChange = new CoinChange();
+            coins = new int[]{ 1, 5, 10, 20 };
+            m = coins.Length;
         }
 
         [TestMethod]
         public void Test1()
         {
-            Assert.IsTrue(palindrome.isPalindrome("LEVEL"));
+            Assert.AreEqual(2, coinChange.minCoins(coins, m, 11));
         }
 
         [TestMethod]
         public void Test2()
         {
-            Assert.IsFalse(palindrome.isPalindrome("LEVEP"));
+            Assert.AreEqual(2, coinChange.minCoins(coins, m, 30));
         }
 
         [TestMethod]
         public void Test3()
         {
-            Assert.IsTrue(palindrome.isPalindrome("LEL"));
+            Assert.AreEqual(7, coinChange.minCoins(coins, m, 87));
         }
 
         [TestMethod]
         public void Test4()
         {
-            Assert.IsTrue(palindrome.isPalindrome("LEl"));
+            Assert.AreEqual(9, coinChange.minCoins(coins, m, 98));
         }
     }
 }
